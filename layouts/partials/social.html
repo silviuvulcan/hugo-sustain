@@ -40,5 +40,9 @@
       <li><a href="https://medium.com/@{{ .Site.Params.Social.Medium }}"><i class="fab fa-medium"></i></a></li>
     {{ end }}
 
+    {{ if .Site.Params.Social.Instagram }}
+    <li><a href="https://instagram.com/{{ .Site.Params.Social.Instagram }}"><i class="fab fa-instagram"></i></a></li>
+    {{ end }}
+
   </ul>
 </div>

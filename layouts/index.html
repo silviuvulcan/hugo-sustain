@@ -7,16 +7,17 @@
             <div class="avatar">
                 <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
             </div>
-            <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer.</h3>
-            <h3>I love bringing computer science into practise.</h3>
-            {{ if .Site.Params.Social.Github }}
+            <h3>I'm <strong>{{ .Site.Params.author }}</strong>, a DevOps Engineer.</h3>
+            <h3>I’m a sysadmin / DevOps engineer, tech and open source enthusiast by day and amateur photographer and avid traveler in my spare time.</h3>
+
+            <!--{{ if .Site.Params.Social.Github }}
                 <h3>Have a look at some of my projects at <a href="https://github.com/{{ .Site.Params.Social.Github }}">Github</a>.</h3>
-            {{ end }}
-            <h3>For more info check out my <a href="https://cv.aknapen.nl">resume</a>.</h3>
+            {{ end }}-->
+
+            <br />
+            <h4><i>Working since 2010 as a Sysadmin then DevOps engineer, probabbly doing DevOps before it was fashionable to be called that.</i></h4>
+            <br />
             <h3>You can get into touch with me using one of the methods below.</h3>
-            <br>
-            <h4><i>"It's still the same me playing with LEGO;<br>
-                I just replaced the physical blocks with abstract lines of code."</i></h4>
         {{ partial "social.html" . }}
         </div>
     </section>
