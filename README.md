@@ -1,3 +1,5 @@
+_**Fork reason:** this theme hardcodes the home page, so I needed personal changes._
+
 ![Sustain - Logo][logo]
 
 ## Table of Contents
